@@ -1,0 +1,126 @@
+    *   {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'arial', sans-serif;
+    }
+    /**************************HEADER***********************************/
+    section {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
+    section header {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    }
+    section header ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    section header ul li {
+    list-style: none;
+    margin-left: 20px;
+    }
+    section header ul li a {
+    color:#111 ;
+    text-decoration: none;
+    font-size: 13px;
+    }
+/* Ödevde background #f2f2f2, yazı rengini
+yazı rengi #5f6368 kullanmalısın demiş ben tercih etmedim.
+ */
+    section header ul li button {
+    background: #4584ef;
+    border: none;
+    outline: 13px;
+    padding: 8px 14px;
+    color: #fff;
+    }
+/*********************GOOGLE & SEARCH*********************/
+    section .google {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    }
+    section .google .aramakutusu {
+        position: relative;
+        width: 100%;
+        margin-top: 20px;
+    }
+    section .google .aramakutusu .search {
+        width: 100%;
+        padding: 13px;
+        padding-left: 45px;
+        padding-right: 60px;
+        border-radius: 30px;
+        border: 1px solid rgb(0, 0, 0);
+        outline: none;
+        font-size: 16px;
+        
+    }
+    section .google .aramakutusu .icons {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        display: flex;
+        padding: 12px 20px;
+        justify-content: space-between;
+        align-items: center;
+        pointer-events: none;
+
+    }
+    section .google .buttons {
+        margin-top: 20px;
+    }
+/********************FOOTER********************/
+    section .footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background:#f2f2f2 ;
+     }
+     section .footer .son {
+         padding: 15px 25px;
+         border-top: 1px ;
+     } 
+     section .footer .son.son2 {
+         display: flex;
+         justify-content: space-between;
+     }
+     section .footer .son.son2 ul {
+         display: flex;
+     }
+     section .footer .son.son2 ul li {
+         list-style: none;
+     }
+     section .footer .son.son2 ul li a{
+         text-decoration: none;
+         font-size: 14px;
+         color:#777a7e;
+         margin-right: 25px;
+        
+          
+
+     }
+
+
+
+
+
+
+
+
+
+    
